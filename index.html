@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        #card {
+            width: 50vw;
+        }
+
+        ::part(title) {
+            font-size: 3rem;
+        }
+    </style>
+  </head>
+  <body>
+    <script type="module" src="./ultimatecard.js"></script>
+
+    <ultimate-card  id="card">
+        <img src="./smudge.jpg" slot="image"></div>
+        <div slot="title">Smudge The Beagle</div>
+        <div slot="description">Smudge when 2 months old</div>
+    </ultimate-card>
+  </body>
+</html>
